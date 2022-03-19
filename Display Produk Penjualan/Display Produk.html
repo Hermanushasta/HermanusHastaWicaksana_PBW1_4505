@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@300&display=swap');
+        
+        * {
+        box-sizing: border-box;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        [class*="col-"] {
+        float: left;
+        padding: 15px;
+        }
+
+        html {
+        font-family: 'Poppins', sans-serif;
+        }
+
+        .header {
+            box-sizing: border-box;
+            padding: 0.25px;
+            background-color: rgba(0, 0, 0, 0.877);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            border-radius: 0.5em;
+        }
+
+        .hr{
+            background-color: grey;
+            size: 3px;
+
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: #f1f1f1;
+            border-radius: 0.25em;
+        }
+
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        .menucolor{
+            background-color: rgba(0, 0, 0, 0.877);
+            color: rgb(255, 255, 255);
+            border-top-left-radius: 0.25em;
+            border-top-right-radius: 0.25em;
+            text-align: center;
+        }
+
+        .button{
+            color: rgb(255, 255, 255); 
+            border-radius: 0.25em; 
+            font-size: 15px; 
+            font-family: 'Poppins', sans-serif;
+            background-color: blue;
+        }
+
+        .judul{
+            text-align: center;
+        }
+
+        .p{
+            text-align: justify;
+        }
+
+        a:hover{
+            color: white;
+            background-color: rgba(0, 0, 0, 0.877);
+            border-bottom-left-radius: 0.25em;
+            border-bottom-right-radius: 0.25em;  
+        }
+        
+        .aside {
+            background-color: #f1f1f1;
+            padding: 5px;
+            color: #000;
+            text-align: center;
+            font-size: 14px;
+            border-radius: 1em;    
+        }
+
+        .footer {
+            background-color: rgba(0, 0, 0, 0.877);
+            color: #ffffff;
+            text-align: center;
+            font-size: 15px;
+            padding: 15px;
+            border-radius: 0.25em;
+        }
+
+        /* For mobile phones: */
+            [class*="col-"] {
+            width: 100%;
+        }
+
+        @media only screen and (min-width: 600px) {
+        /* For tablets: */
+        .col-s-1 {width: 8.33%;}
+        .col-s-2 {width: 16.66%;}
+        .col-s-3 {width: 25%;}
+        .col-s-4 {width: 33.33%;}
+        .col-s-5 {width: 41.66%;}
+        .col-s-6 {width: 50%;}
+        .col-s-7 {width: 58.33%;}
+        .col-s-8 {width: 66.66%;}
+        .col-s-9 {width: 75%;}
+        .col-s-10 {width: 83.33%;}
+        .col-s-11 {width: 91.66%;}
+        .col-s-12 {width: 100%;}
+        }
+        @media only screen and (min-width: 768px) {
+        /* For desktop: */
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+        }
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Hasta Guitar$hop</h1>
+</div>
+
+    <div class="row">
+        <div class="col-3">
+            <ul>
+                <div class="menucolor"><li><b>MENU</b></li>  </div>
+                <li><nav><a href="#fender">Fender</a></nav></li>
+                <li><nav><a href="#gibson">Gibson</a></nav></li>
+                <li><nav><a href="#paulreedsmith">PRS</a></nav></li>
+                <li><nav><a href="#epiphone">Epiphone</a></nav></li>
+                <li><nav><a href="#schecter">Schecter</a></nav></li>
+                <li><nav><a href="#ibanez">Ibanez</a></nav></li>
+                <li><nav><a href="#jackson">Jackson</a></nav></li>
+            </ul>
+        </div>
+    
+        <div class="col-6 col-s-9">
+            <h1>Hasta Guitar$hop</h1>
+                <p class="p">Merupakan toko jual beli gitar ORIGINAL yang memiliki koleksi gitar yang lengkap. Harga sangat kompetitif karena kami produk langsung
+                    dan menjual di lokasi pribadi, sehingga tidak ada anggaran untuk biaya sewa toko. Untuk membeli produk kami dapat diakses melalui situs online atau bisa datang langsung ke toko kami. 
+                    Informasi lebih lanjut dapat dilihat pada deskripsi mengenai toko kami.</p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+            <hr>
+
+            <div id="fender"><h2 class="judul">Fender</h2></div>
+                <img src="fndr.jpg" width="100%">
+            <h4>Fender American Professional II Telecaster</h4>
+            <h4>Rp22.890.000</h4>
+            <button class="button">Beli Sekarang</button>
+                <p style="text-align: justify;">Fender telah memperbarui seri American Professional II dengan banyak peningkatan detail yang berguna.
+                    Direvisi dengan pickup V-Mod II yang baru dikembangkan, profil leher baru yang nyaman, transisi leher / tubuh miring untuk mencapai register tinggi dan perangkat keras berkualitas tinggi. 
+                    Fender menawarkan berbagai sentuhan akhir cat yang baru dikembangkan yang menjadikan setiap instrumen sangat menarik perhatian.</p>
+                
+            <h3>Fitur</h3>                
+                    <li>Colour / Finish: 3-Tone Sunburst</li>
+                    <li>Strings: 6</li>
+                    <li>Scale Length: 25,5" (648 mm)</li>
+                    <li>Pickup Configuration: S-S (2x Single Coil</li>
+                    <li>Pickup Selector Switch: 3-way switch</li>
+                    <li>Hardware: Nickel / Chrome</li>
+            <hr>
+
+            <div id="gibson"><h2 class="judul">Gibson</h2></div>
+                <img src="gibson-custom-shop-1960-les-paul-standard-light-aged.jpg" width="100%">
+            <h4>Gibson Custom Shop 1960 Les Paul</h4>
+            <h4>Rp68.000.000</h4>
+            <button class="button">Beli Sekarang</button>
+                <p style="text-align: justify;">1960 adalah tahun terakhir untuk Les Paul™ Standard asli, hampir identik dengan model 1959 kecuali untuk beberapa spesifikasi. 
+                    Terutama, fitur profil leher ramping bermain cepat, dicintai oleh banyak musisi terkenal yang memainkan '60 Bursts' termasuk Eric Clapton, Joe Walsh, dan Paul McCartney.</p>
+                
+            <h3>Fitur</h3>                
+                    <li>Finish : Nitrocellulose Lacquer; Murphy Lab Ultra Light Aged</li>
+                    <li>Top : 2-Piece Figured Maple, Hide Glue Fit</li>
+                    <li>Number Of Frets : 22</li>
+                    <li>Neck Pickup : Custombucker Alnico 3 (Unpotted)</li>
+                    <li>Scale Length : 24.75" / 628.65mm</li>
+                    <li>Fingerboard Material : Indian Rosewood, Hide Glue Fit</li>
+            
+            <hr>
+
+            <div id="paulreedsmith"><h2 class="judul">PRS</h2></div>
+                <img src="prs.jpg" width="100%">
+            <h4>Paul Reed Smith Custom 24 BW</h4>
+            <h4>Rp49.300.000</h4>
+            <button class="button">Beli Sekarang</button>
+                <p style="text-align: justify;">Custom 24 adalah gitar PRS klasik. Instrumen ikonik ini adalah model pertama yang dibawakan oleh Paul Reed Smith ke publik pada pertunjukan NAMM Musim Dingin pertama PRS Guitars pada tahun 1985 
+                    dan telah menjadi terlaris sejak saat itu. Dimainkan oleh seniman tur internasional, musisi manggung, dan calon pemain, Custom 24 menampilkan sistem tremolo Gen III PRS yang dipatenkan dan pickup PRS 85/15 dengan kontrol volume dan nada serta sakelar blade 5 arah.</p>
+                        
+                <h3>Fitur</h3>   
+                    <li>Neck: Mahogany</li>
+                    <li>Pickup Configuration: H-H (2x Humbucker)</li>
+                    <li>Pickup Selector Switch: 5-Way Bladeswitch</li>
+                    <li>Bridge / Tremolo: Standard Tremolo</li>   
+                    <li>Frets: 24</li>
+                    <li>Strings: 6</li>
+            <hr>
+
+            <div id="epiphone"><h2 class="judul">Epiphone</h2></div>
+                <img src="epiphoneles-paulstandard-50s-vintage-sunburst.jpg" width="100%">
+            <h4>Epiphone Les Paul Standard 50s</h4>
+            <h4>Rp31.470.000</h4>
+            <button class="button">Beli Sekarang</button>
+                <p style="text-align: justify;">Koleksi yang terinspirasi dari Gibson™ baru dari Epiphone dengan bangga mempersembahkan Les Paul™ Standard 50s! Gitar ini dengan penuh kasih menciptakan kembali nuansa dan nada Les Pauls era 1950-an. 
+                    Persahabatan panjang Epiphone dengan Mr. Les Paul dimulai pada tahun 1940 ketika Les membangun salah satu gitar listrik solidbody pertama di dunia saat bekerja malam di pabrik Epiphone asli di Manhattan.</p>
+                        
+                <h3>Fitur</h3> 
+                    <li>Neck Pickup : Epiphone ProBucker™ 1</li>               
+                    <li>Top : Carved Hard Maple Cap with AAA Flame Maple Venee</li>
+                    <li>Body Material : Mahogany/li>
+                    <li>Bridge : Epiphone LockTone™ Tune-O-Matic™</li>
+                    <li>Tuning Machines : Epiphone Vintage Deluxe 18:1 ratio machine heads</li>
+                    <li>Pickguard : 1-Ply; Cream PVC</li>
+            
+            <hr>
+
+            <div id="schecter"><h2 class="judul">Schecter</h2></div>
+                <img src="scheter.jpg" width="100%">
+            <h4>Schecter Synyster Gates Standard</h4>
+            <h4>Rp17.250.000</h4>
+            <button class="button">Beli Sekarang</button>
+                <p style="text-align: justify;">Synyster Gates (Brian Elwin Haner Jr. ) is the guitarist of Avenged Sevenfold 
+                    (also known under the abbreviation A7X, a metal band from Huntington Beach, California.</p>
+                                
+            <h3>Fitur</h3>                
+                    <li>Neck Pickup : Schecter Diamond Synyster Gates Signature Humbucker</li>
+                    <li>Body Material : Mahogany</li>
+                    <li>Neck Material : Mahogany 3-pc w/ Carbon Fiber Reinforcement Rods</li>
+                    <li>Frets : 24 X-Jumbo</li>
+                    <li>Fretboard : Ebony</li>
+                    <li>Strings : Ernie Ball Regular Slinky #2221 (.010-.046)</li>          
+            
+            <hr>
+
+            <div id="ibanez"><h2 class="judul">Ibanez</h2></div>
+                <img src="ibanez.jpg" width="100%">
+            <h4>Ibanez RG652AHMFX Prestige</h4>
+            <h4>Rp17.100.000</h4>
+            <button class="button">Beli Sekarang</button>
+                <p style="text-align: justify;">Ibanez RG652AHMFX-NGB dari seri prestige adalah papan rock kontemporer untuk arah musik yang lebih keras. 
+                    Bahan-bahan terbaik yang digunakan yaitu leher HP wizard super datar dan nyaman dengan fingerboard Maple mata Burung, tubuh Ash, pickup DiMarzio, String Thru Body bridge dan Tuner Penguncian Gotoh Magnum.</p>
+                                        
+            <h3>Fitur</h3>                
+                    <li>neck type : Super Wizard HP5pc Maple/Walnut neck</li>
+                    <li>neck pickup : DiMarzio® Air Norton™ (H) neck pickupPassive/Alnico</li>
+                    <li>strings : D'Addario® EXL110</li>
+                    <li>bridge pickup : DiMarzio® The Tone Zone® (H)</li>
+                    <li>fret : Jumbo frets</li>
+                    <li>bridge : Gibraltar Standard II bridge</li> 
+
+            <hr>
+
+            <div id="jackson"><h2 class="judul">Jackson</h2></div>
+                <img src="jacksondinky.jpg" width="100%">
+            <h4>Jackson Dinky DK2XRHT Gloss Black</h4>
+            <h4>Rp6.000.000</h4>
+            <button class="button">Beli Sekarang</button>
+                <p style="text-align: justify;">Dibangun dengan pengetahuan dan inovasi terbaru oleh Jackson Guitars, model Seri X menampilkan pickup humbucker panas, 
+                    menghadirkan suara yang seimbang dengan bass yang kencang, mid glassy, ​​dan treble yang tajam. 
+                    Lebih dari jumlah bagian mereka, gitar dengan harga menengah ini dipenuhi dengan faktor "X", yang menjadikannya mesin modern yang sempurna untuk pemain gitar generasi baru tanpa batas.</p>
+                                                
+            <h3>Fitur</h3>                
+                    <li>Neck Pickup : Jackson® High Output Humbucker</li>
+                    <li>Bridge Pickup : Jackson® High Output Humbucking</li>
+                    <li>Strings : 6</li>
+                    <li>Neck construction : Bolt on neck</li>
+                    <li>Frets : 24</li>
+                    <li>Pickup Configuration: H-H (2x Humbucker)</li>  
+                <hr>     
+        </div>
+
+        <div class="col-3 col-s-12">
+            <div class="aside">
+                <h2>Alamat</h2>
+                <p>Jl. Blabak Mungkid, Banyutemumpang, Krogowanan, Kec. Sawangan, Kabupaten Magelang, Jawa Tengah 56481</p>
+                <h2>Jam Buka</h2>
+                <p>Setiap hari 09.00-21.00</p>
+                <h2>Hubungi Kami</h2>
+                <p><img src="whatsapp.png" width="12">085729245710</p>
+                <p><img src="Instagram.png" width="12">
+                    <a href="https://www.instagram.com/hermanushasta"><u>hermanushasta</u></a></p>
+        
+            </div>
+        </div>
+    </div>
+
+
+<div class="footer">
+    <p><b>Hasta Guitar$hop<br> ©2022</b></p>
+</div>
+
+</body>
+</html>
