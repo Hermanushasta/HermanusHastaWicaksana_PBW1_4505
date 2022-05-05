@@ -40,7 +40,7 @@
                 if (isset($_POST['tambah'])) {
                     $nim = $_POST['nim'];
                     $name = $_POST['nama'];
-                    $query = " INSERT INTO mahasiswa VALUES ('$nim', '$name')";
+                    $query = " INSERT INTO mahasiswa (`NIM`, `Nama_mhs`) VALUES ('$nim', '$name')";
                     $tambah = mysqli_query($conn, $query);
                     if ($tambah == true) {
 						?>
